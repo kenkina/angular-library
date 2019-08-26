@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "business-common": [
+        "dist/business-common"
+      ],
+      "business-common/*": [
+        "dist/business-common/*"
+      ]
+    }
   }
 }
