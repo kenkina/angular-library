@@ -18,7 +18,7 @@ var FooterComponent = /** @class */ (function () {
     FooterComponent.decorators = [
         { type: Component, args: [{
                     selector: 'business-common-footer',
-                    template: "<p>footer works!</p>\n",
+                    template: "<p>business-common footer works!</p>\n",
                     styles: [""]
                 }] }
     ];
