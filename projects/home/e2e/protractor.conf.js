@@ -4,6 +4,9 @@
 
 const { SpecReporter } = require('jasmine-spec-reporter');
 
+const globalModules = require('global-modules');
+console.log("Global: ", globalModules);
+
 /**
  * @type { import("protractor").Config }
  */
@@ -21,7 +24,7 @@ exports.config = {
   jasmineNodeOpts: {
     showColors: true,
     defaultTimeoutInterval: 30000,
-    print: function() {}
+    print: function () { }
   },
   onPrepare() {
     require('ts-node').register({
