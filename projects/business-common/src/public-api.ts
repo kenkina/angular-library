@@ -3,3 +3,6 @@
  */
 
 export * from './lib/business-common.module';
+
+// components
+export * from './lib/footer/footer.component';
