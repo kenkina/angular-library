@@ -242,6 +242,11 @@
       "root": "projects/business-common",
       "sourceRoot": "projects/business-common/src",
       "prefix": "business-common",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -271,6 +276,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "home"
 }
